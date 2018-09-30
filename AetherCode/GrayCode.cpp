@@ -44,7 +44,6 @@ public:
 		return res;
 	}
 
-
 	vector<int> grayCode3(int n) {
 		vector<int> res(1 << n);
 		for (int i = 0; i < 1 << n; i++)
